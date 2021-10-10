@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="#" />
+    <title>Js Guess Game</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="main header">
+      <button class="btn again">Again!</button>
+      <div class="btw">Between 1 and 20</div>
+    </div>
+    <div class="scrttoptxt">Guess My Number!</div>
+    <div class="center">
+      <input type="button" value="?" id="scrtnumber" />
+    </div>
+    <div class="guessingplay">
+      <div class="left">
+        <input type="number" id="entunum" />
+        <button class="chk check">Check!</button>
+      </div>
+      <div class="right">
+        <div class="message">start guessing...</div>
+        <div class="scr">🏆 Score: <span class="score">20</span></div>
+        <div class="hgscr">🏅 High Score: <span class="hscore">0</span></div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
