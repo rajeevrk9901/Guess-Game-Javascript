@@ -1,11 +1,11 @@
 # Guess-Game-Javascript
 
-First projrct of My JavaScript
+**First Projrct of JavaScript**
 
 Learned about Below : 
 
 1. How To Select Html class, Id
 
-2. About quearySelecter and addEventListner 
+2. Learned About quearySelecter and addEventListner 
 
-3. About how To reset changes back to intial stage
+3. Learned About How To use a Again button to change back to intial stage
